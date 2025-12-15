@@ -15,15 +15,18 @@ Perfect for servers that want fair exploration, no free world info, and a more i
 ## 🛠️ Added Gamerules
 XaeroNuhUh introduces two gamerules you can configure:
 
-| Gamerule | Type | Description |
-|----------|-------|-------------|
-| `DisableMiniMap` | boolean | When `true`, disables Xaero’s Minimap for all players. |
-| `EnableFairMode` | boolean | When `true`, enforces fair-mode restrictions for both Xaero’s Minimap and World Map. |
+| Gamerule               | Type    | Description                                                                          |
+|------------------------|---------|--------------------------------------------------------------------------------------|
+| `disableminimap`       | boolean | When `true`, disables Xaero’s Minimap for all players.                               |
+| `enablefairmode`       | boolean | When `true`, enforces fair-mode restrictions for both Xaero’s Minimap and World Map. |
+| `enablenethercavemode` | boolean | When `true`, enables cave mode in the nether.                                        |
+
 
 ### Example Commands
 ```mcfunction
-/gamerule DisableMiniMap true
-/gamerule EnableFairMode true
+/gamerule disableminimap true
+/gamerule enablefairmode true
+/gamerule enablenethercavemode true
 ```
 
 ## 📦 Supported Mods
@@ -52,5 +55,3 @@ XaeroNuhUh targets the following mods:
     
 
 Enjoy a fairer adventure!
-
-
