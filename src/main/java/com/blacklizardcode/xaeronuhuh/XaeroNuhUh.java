@@ -75,7 +75,7 @@ public class XaeroNuhUh implements ModInitializer {
             boolean nethercaveModeChanged = worldMap != lastRuleStates.get(ENABLE_CAVE_MODE_NETHER);
 
 
-            if (fairModeChanged || worldMapChanged) {
+            if (fairModeChanged || worldMapChanged || nethercaveModeChanged) {
                 // Re-run join logic for all online players
                 for (ServerPlayerEntity player : server.getPlayerManager().getPlayerList()) {
                     runJoinLogic(player, world);
