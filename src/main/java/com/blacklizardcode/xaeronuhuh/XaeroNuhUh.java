@@ -35,6 +35,7 @@ public class XaeroNuhUh implements ModInitializer {
     private final Map<GameRule<Boolean>, Boolean> lastRuleStates = new HashMap<>();
 
     @Override
+    @SuppressWarnings({ "nullness", "null" })
     public void onInitialize() {
 
         // Initialize and register gamerules
