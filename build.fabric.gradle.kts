@@ -16,6 +16,7 @@ sourceSets {
     main {
         java {
             srcDir("src/fabric/java")
+            exclude("com/blacklizardcode/XaeroNuhUhNeoForge.java")
         }
     }
 }

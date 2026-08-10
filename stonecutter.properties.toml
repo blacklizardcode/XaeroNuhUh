@@ -12,10 +12,14 @@ mod.mc_releases = ["26.2"]
 
 
 [fabric."26.2"]
-mod.mc_compat = "~26.2"
+mod.mc_compat = "26.2"
 deps.fabric_api = "0.156.0+26.2"
 
 
 [neoforge."26.2"]
-mod.mc_compat = "[26.2, 26.3)"
+mod.mc_compat = "26.2"
 deps.neo_loader = "26.2.0.43-beta"
+
+[neoforge."1.21.1"]
+mod.mc_compat = "1.21.1"
+deps.neo_loader = "21.1.247"

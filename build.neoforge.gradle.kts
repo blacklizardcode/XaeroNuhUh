@@ -13,14 +13,6 @@ val requiredJava = when {
     else -> JavaVersion.VERSION_1_8
 }
 
-sourceSets {
-    main {
-        java {
-            srcDir("src/neoforge/java")
-        }
-    }
-}
-
 repositories {
     /**
      * Restricts dependency search of the given [groups] to the [maven URL][url],
