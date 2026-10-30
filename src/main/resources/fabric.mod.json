@@ -21,6 +21,7 @@
   },
   "depends": {
     "fabricloader": ">=0.17",
+    "fabric-api": "*",
     "minecraft": "${minecraft}"
   }
 }

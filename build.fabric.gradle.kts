@@ -15,7 +15,7 @@ val requiredJava: JavaVersion = when {
 sourceSets {
     main {
         java {
-            srcDir("src/fabric/java")
+            srcDir(rootProject.file("src/fabric/java"))
             exclude("com/blacklizardcode/XaeroNuhUhNeoForge.java")
         }
     }
